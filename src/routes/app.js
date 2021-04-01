@@ -11,7 +11,7 @@ const App = () => {
     return (
       <BrowserRouter>
         <Login exact path="/" />;
-        <Login exact path="/olsoftware" />;
+        <Login exact path="olsoftware/" />;
       </BrowserRouter>
     );
   } else {
