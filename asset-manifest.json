@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/olsoftware/static/css/main.b8f008ca.chunk.css",
-    "main.js": "/olsoftware/static/js/main.09432e63.chunk.js",
-    "main.js.map": "/olsoftware/static/js/main.09432e63.chunk.js.map",
+    "main.css": "/olsoftware/static/css/main.cf37e0ee.chunk.css",
+    "main.js": "/olsoftware/static/js/main.7e9f1401.chunk.js",
+    "main.js.map": "/olsoftware/static/js/main.7e9f1401.chunk.js.map",
     "runtime-main.js": "/olsoftware/static/js/runtime-main.0c6958d6.js",
     "runtime-main.js.map": "/olsoftware/static/js/runtime-main.0c6958d6.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/olsoftware/static/css/2.4c97ca4f.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.c151a76a.chunk.js.map": "/olsoftware/static/js/2.c151a76a.chunk.js.map",
     "index.html": "/olsoftware/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/olsoftware/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.b8f008ca.chunk.css.map": "/olsoftware/static/css/main.b8f008ca.chunk.css.map",
+    "static/css/main.cf37e0ee.chunk.css.map": "/olsoftware/static/css/main.cf37e0ee.chunk.css.map",
     "static/js/2.c151a76a.chunk.js.LICENSE.txt": "/olsoftware/static/js/2.c151a76a.chunk.js.LICENSE.txt",
     "static/media/Login.scss": "/olsoftware/static/media/image_cartagena.c8636abf.jpg",
     "static/media/profile.6c47e609.png": "/olsoftware/static/media/profile.6c47e609.png"
@@ -19,7 +19,7 @@
     "static/js/runtime-main.0c6958d6.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.c151a76a.chunk.js",
-    "static/css/main.b8f008ca.chunk.css",
-    "static/js/main.09432e63.chunk.js"
+    "static/css/main.cf37e0ee.chunk.css",
+    "static/js/main.7e9f1401.chunk.js"
   ]
 }
