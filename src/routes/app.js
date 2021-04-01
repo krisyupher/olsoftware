@@ -8,7 +8,12 @@ import { useSelector } from "react-redux";
 const App = () => {
   const token = useSelector((state) => state.token);
   if (!token) {
-    return <Login />;
+    return (
+      <BrowserRouter>
+        <Login exact path="/" />;
+        <Login exact path="/olsoftware" />;
+      </BrowserRouter>
+    );
   } else {
     return (
       <BrowserRouter>
