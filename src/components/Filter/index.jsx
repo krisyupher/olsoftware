@@ -17,7 +17,7 @@ const Filter = ({ listUsers, setShowListUser, cleanFilter }) => {
         <FontAwesomeIcon icon={faUserPlus} />
         <h5>Filtrar búsqueda</h5>
       </div>
-      <div>
+      <div className="fieldContainer">
         <label htmlFor="">Nombre</label>
         <input
           type="text"
@@ -27,7 +27,7 @@ const Filter = ({ listUsers, setShowListUser, cleanFilter }) => {
           }}
         />
       </div>
-      <div>
+      <div className="fieldContainer">
         <label htmlFor="">Apellido</label>
         <input
           type="text"
@@ -37,7 +37,7 @@ const Filter = ({ listUsers, setShowListUser, cleanFilter }) => {
           }}
         />
       </div>
-      <div>
+      <div className="fieldContainer">
         <label htmlFor="">Identificacion</label>
         <input
           type="text"
@@ -47,7 +47,7 @@ const Filter = ({ listUsers, setShowListUser, cleanFilter }) => {
           }}
         />
       </div>
-      <div>
+      <div className="fieldContainer">
         <label htmlFor="">Cargo</label>
         <input
           type="text"
@@ -57,7 +57,7 @@ const Filter = ({ listUsers, setShowListUser, cleanFilter }) => {
           }}
         />
       </div>
-      <div>
+      <div className="fieldContainer">
         <label htmlFor="">Telefono</label>
         <input
           type="text"
@@ -67,7 +67,7 @@ const Filter = ({ listUsers, setShowListUser, cleanFilter }) => {
           }}
         />
       </div>
-      <div>
+      <div className="fieldContainer">
         <label htmlFor="">Correo</label>
         <input
           type="text"
