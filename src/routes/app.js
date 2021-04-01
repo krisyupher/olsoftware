@@ -9,10 +9,10 @@ const App = () => {
   const token = useSelector((state) => state.token);
   if (!token) {
     return (
-      <BrowserRouter>
+      <>
         <Login exact path="/" />;
         <Login exact path="olsoftware/" />;
-      </BrowserRouter>
+      </>
     );
   } else {
     return (
