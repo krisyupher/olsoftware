@@ -16,11 +16,8 @@ const App = () => {
   } else {
     return (
       <BrowserRouter>
-        <Switch>
-          <Header />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/olsoftware" component={Home} />
-        </Switch>
+        <Header />
+        <Route path="/" component={Home} />
       </BrowserRouter>
     );
   }
