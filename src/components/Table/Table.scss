@@ -1,0 +1,46 @@
+.TableContainer {
+  width: 100%;
+  margin: 1rem;
+  background: white;
+  border-radius: 20px;
+  .titleWraper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--textColor);
+    padding: 1rem;
+    .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h3 {
+        margin: 0 20px;
+      }
+    }
+  }
+  table {
+    border-radius: inherit;
+    text-align: center;
+    tr {
+      border: none;
+      th {
+        border: none;
+      }
+    }
+    td {
+      .editIcon {
+        margin-right: 1rem;
+        cursor: pointer;
+        &:hover {
+          color: rgb(0, 108, 196);
+        }
+      }
+      .deleteIcon {
+        cursor: pointer;
+        &:hover {
+          color: rgb(177, 12, 0);
+        }
+      }
+    }
+  }
+}

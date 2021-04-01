@@ -1,0 +1,26 @@
+.HeaderContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  h2 {
+    color: var(--textColor);
+  }
+  .wrapperProfile {
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+    strong {
+      margin: 0 1rem;
+    }
+    button {
+      font-size: 20px;
+      border: none;
+      background: white;
+			&:hover{
+				color: rgb(179, 21, 0);
+			}
+    }
+  }
+}

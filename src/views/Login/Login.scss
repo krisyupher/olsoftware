@@ -1,0 +1,62 @@
+.LoginContainer {
+  width: 100vw;
+  .wrapper {
+    background-image: url("../../assets/image_cartagena.jpg");
+    filter: grayscale(50%);
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    height: 80%;
+    flex-wrap: wrap;
+    .title {
+      display: flex;
+      flex-direction: column;
+      text-shadow: 1px 1px 3px gray;
+      h2 {
+        color: white;
+      }
+      p {
+        color: white;
+      }
+    }
+    form {
+      background: white;
+      border-radius: 20px;
+      padding: 1rem 2rem;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 2px 2px 10px gray;
+      h3 {
+        text-align: center;
+        margin: 1rem 0;
+      }
+      .inputWrapper {
+        box-shadow: 0px 0px 2px gray;
+        padding: 1rem;
+        input {
+          border: none;
+          color: gray;
+          outline: none;
+        }
+      }
+      button {
+        padding: 1rem;
+        background: var(--backgroundBlue);
+        color: white;
+        margin: 1rem 0;
+        border: none;
+      }
+    }
+  }
+  small {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

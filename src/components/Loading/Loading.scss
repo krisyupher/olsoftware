@@ -1,0 +1,69 @@
+.LoadinContainer {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background: rgba(128, 128, 128, 0.747);
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  strong {
+    font-size: 3rem;
+  }
+  .circleContainer {
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    .circle {
+      background: white;
+      border-radius: 50%;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+    .circle1 {
+      animation-name: circleOne;
+      animation-delay: 0.5s;
+    }
+    .circle2 {
+      animation-name: circleTwo;
+      animation-delay: 1s;
+    }
+    .circle3 {
+      animation-name: circleThree;
+      animation-delay: 1.5s;
+    }
+    @keyframes circleOne {
+      from {
+        width: 5px;
+        height: 5px;
+      }
+      to {
+        width: 20px;
+        height: 20px;
+      }
+    }
+    @keyframes circleTwo {
+      from {
+        width: 5px;
+        height: 5px;
+      }
+      to {
+        width: 20px;
+        height: 20px;
+      }
+    }
+    @keyframes circleThree {
+      from {
+        width: 5px;
+        height: 5px;
+      }
+      to {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
