@@ -9,22 +9,17 @@ const App = () => {
   const token = useSelector((state) => state.token);
   if (!token) {
     return (
-      <>
-        <Login exact path="/" />;
+      <BrowserRouter>
         <Login exact path="olsoftware/" />;
-      </>
+      </BrowserRouter>
     );
   } else {
     return (
       <BrowserRouter>
-        <Header />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/olsoftware" component={Home} />
         <Switch>
-          {/* <Route exact path="/" component={Hero} />
-          <Route exact path="/hero" component={Hero} />
-          <Route exact path="/store" component={Store} />
-          <Route exact path="/store/pageColor" component={StoreDetail} /> */}
+          <Header />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/olsoftware" component={Home} />
         </Switch>
       </BrowserRouter>
     );
